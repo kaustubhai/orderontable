@@ -17,7 +17,7 @@ dotenv.config();
 // );
 
 // enable cors
-app.use(cors({ origin: true, credentials: true }));
+app.use(cors());
 
 const cookies = require("cookie-parser");
 
