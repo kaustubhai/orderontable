@@ -17,7 +17,10 @@ dotenv.config();
 // );
 
 // enable cors
-app.use(cors());
+app.use(cors({
+  origin: ['http://localhost:3000', 'https://orderji-client.vercel.app', 'http://orderji-client.vercel.app'],
+  credentials: true
+}));
 
 const cookies = require("cookie-parser");
 

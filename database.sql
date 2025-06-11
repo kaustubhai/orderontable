@@ -1,4 +1,3 @@
-CREATE DATABASE "orderJi";
 CREATE EXTENSION IF NOT EXISTS "uuid-ossp";
 CREATE TABLE cafe (
     _id UUID DEFAULT uuid_generate_v4() PRIMARY KEY,
